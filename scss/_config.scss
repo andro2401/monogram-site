@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap");
+
+$primary: #1a2456;
+$secondary: #ff8b68;
+$orange: #ff501c;
+$cream: #f0efed;
+$dark: #080b1b;
+
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,4 +25,3 @@ a {
 ul {
   list-style-type: none;
 }
-/*# sourceMappingURL=style.css.map */
