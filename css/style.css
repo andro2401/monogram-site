@@ -61,6 +61,16 @@ ul {
   margin-left: 2em;
 }
 
+.navbar__nav__item:nth-child(2):hover {
+  position: relative;
+}
+
+.navbar__nav__item:nth-child(2):hover .dropdown {
+  display: block;
+  position: absolute;
+  top: 2rem;
+}
+
 .navbar__nav__link {
   color: #efc2b3;
   font-size: 1.4rem;
@@ -74,6 +84,7 @@ ul {
 .dropdown {
   display: none;
   background: white;
+  width: 20rem;
 }
 
 .dropdown__link {

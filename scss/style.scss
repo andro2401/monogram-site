@@ -26,6 +26,16 @@
 
     &__item {
       margin-left: 2em;
+
+      &:nth-child(2):hover {
+        position: relative;
+
+        .dropdown {
+          display: block;
+          position: absolute;
+          top: 2rem;
+        }
+      }
     }
 
     &__link {
@@ -43,6 +53,7 @@
 .dropdown {
   display: none;
   background: white;
+  width: 20rem;
 
   &__link {
     color: black;
