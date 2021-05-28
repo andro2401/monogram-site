@@ -85,6 +85,8 @@ ul {
   display: none;
   background: white;
   width: 20rem;
+  -webkit-box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
 }
 
 .dropdown__link {
@@ -95,6 +97,6 @@ ul {
 }
 
 .dropdown__link:hover {
-  background: #b6b6b6;
+  background: #d6d6d6;
 }
 /*# sourceMappingURL=style.css.map */
