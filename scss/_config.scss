@@ -5,6 +5,7 @@ $secondary: #ff8b68;
 $orange: #ff501c;
 $cream: #f0efed;
 $dark: #080b1b;
+$link: #efc2b3;
 
 * {
   padding: 0;
@@ -12,8 +13,11 @@ $dark: #080b1b;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%; // means that default font-size is 10px(if using rem units for easier calculation)
+}
+
 body {
-  font-size: 62.5%;
   font-family: "Prompt", sans-serif;
 }
 

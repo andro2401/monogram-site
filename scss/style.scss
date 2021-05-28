@@ -1,1 +1,57 @@
 @import "config";
+
+.navbar {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  left: 1em;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background: $primary;
+
+  &__logo {
+    color: $link;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  &__nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    &__item {
+      margin-left: 2em;
+    }
+
+    &__link {
+      color: $link;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.dropdown {
+  display: none;
+  background: white;
+
+  &__link {
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+
+    &:hover {
+      background: rgb(182, 182, 182);
+    }
+  }
+}
