@@ -25,9 +25,9 @@ ul {
 
 .navbar {
   position: fixed;
-  top: 1em;
-  right: 1em;
-  left: 1em;
+  top: 1.5em;
+  right: 1.5em;
+  left: 1.5em;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,8 +35,9 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1em;
+  padding: 0.7em;
   background: #1a2456;
+  z-index: 999;
 }
 
 .navbar__logo {
@@ -73,7 +74,8 @@ ul {
 
 .navbar__nav__link {
   color: #efc2b3;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -98,5 +100,55 @@ ul {
 
 .dropdown__link:hover {
   background: #d6d6d6;
+}
+
+.section__hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/shop-cta-xl.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.section__hero__content {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  float: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 8rem;
+  padding-top: 6rem;
+}
+
+.section__hero__content h1 {
+  font-size: 3.6rem;
+  width: 40rem;
+  text-transform: uppercase;
+  color: #1a2456;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.section__hero__content p {
+  font-size: 1.6rem;
+  color: #1a2456;
 }
 /*# sourceMappingURL=style.css.map */

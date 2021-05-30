@@ -2,14 +2,15 @@
 
 .navbar {
   position: fixed;
-  top: 1em;
-  right: 1em;
-  left: 1em;
+  top: 1.5em;
+  right: 1.5em;
+  left: 1.5em;
   height: auto;
   display: flex;
   align-items: center;
-  padding: 1em;
+  padding: 0.7em;
   background: $primary;
+  z-index: 999;
 
   &__logo {
     color: $link;
@@ -40,7 +41,8 @@
 
     &__link {
       color: $link;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+      letter-spacing: 0.2rem;
       text-transform: uppercase;
 
       &:hover {
@@ -64,6 +66,46 @@
 
     &:hover {
       background: rgb(214, 214, 214);
+    }
+  }
+}
+
+.section__hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/shop-cta-xl.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  &__content {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    float: right;
+    justify-content: center;
+    padding-left: 8rem;
+    padding-top: 6rem;
+
+    h1 {
+      font-size: 3.6rem;
+      width: 40rem;
+      text-transform: uppercase;
+      color: $primary;
+      letter-spacing: 0.3rem;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    p {
+      font-size: 1.6rem;
+      color: $primary;
     }
   }
 }
