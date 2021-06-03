@@ -16,6 +16,7 @@ $link: #efc2b3;
 html {
   font-size: 62.5%; // means that default font-size is 10px(if using rem or em units for easier calculation)
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
