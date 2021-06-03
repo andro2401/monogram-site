@@ -1,5 +1,7 @@
 @import "config";
 
+/*HEADER*/
+
 .navbar {
   position: fixed;
   top: 1.5em;
@@ -70,6 +72,8 @@
   }
 }
 
+/*HERO SECTION*/
+
 .section__hero {
   width: 100vw;
   height: 100vh;
@@ -106,6 +110,119 @@
     p {
       font-size: 1.6rem;
       color: $primary;
+    }
+  }
+}
+
+/* FOOTER*/
+
+.footer {
+  background: $primary;
+  width: 100%;
+  padding: 3rem 8rem 7rem;
+
+  &__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: $link;
+  }
+
+  &__monogram {
+    max-width: 8rem;
+  }
+
+  &__headline {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    font-size: 1.2rem;
+    color: $link;
+    margin-bottom: 0.4rem;
+
+    &:hover {
+      color: $secondary;
+      text-decoration: underline;
+    }
+  }
+
+  &__subscribe {
+    max-width: 28rem;
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    form {
+      margin-bottom: 3rem;
+    }
+
+    .email {
+      background: transparent;
+      border: 1px solid $link;
+      outline: 0;
+      width: 70%;
+      padding: 0.4rem;
+      font-size: 1.2rem;
+      color: $link;
+
+      &:active {
+        background: none;
+        border: 1px solid $link;
+        border-radius: 0;
+      }
+    }
+
+    .submit-btn {
+      border-radius: 5rem;
+      border: 0;
+      border-color: $link;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.6rem 1.3rem;
+      cursor: pointer;
+      background: $link;
+
+      &:hover {
+        background: $secondary;
+      }
+    }
+
+    .fab {
+      font-size: 2rem;
+      margin-right: 1rem;
+      margin-bottom: 2rem;
+      cursor: pointer;
+
+      &:hover {
+        color: $secondary;
+      }
+    }
+
+    h6 {
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+
+  &__inline {
+    display: inline-block;
+    margin: 0 0.4rem;
+    font-size: 0.8rem;
+    color: $secondary;
+
+    &:hover {
+      color: $orange;
+      text-decoration: underline;
     }
   }
 }
