@@ -86,7 +86,7 @@
     top: 0;
     right: 0;
     left: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 
     &__content {
       height: 100%;
@@ -113,6 +113,31 @@
         font-size: 1.6rem;
         color: $primary;
       }
+    }
+  }
+
+  &__banner {
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 4rem;
+    padding-bottom: 35rem;
+    margin-bottom: 4rem;
+
+    h2 {
+      font-size: 3.2rem;
+      color: $primary;
+      letter-spacing: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: $primary;
     }
   }
 }

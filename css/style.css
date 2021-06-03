@@ -117,7 +117,7 @@ ul {
   top: 0;
   right: 0;
   left: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .section__hero__content {
@@ -154,6 +154,32 @@ ul {
 
 .section__hero__content p {
   font-size: 1.6rem;
+  color: #1a2456;
+}
+
+.section__banner {
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 4rem;
+  padding-bottom: 35rem;
+  margin-bottom: 4rem;
+}
+
+.section__banner h2 {
+  font-size: 3.2rem;
+  color: #1a2456;
+  letter-spacing: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.section__banner p {
+  font-size: 1.8rem;
+  font-weight: 300;
   color: #1a2456;
 }
 
